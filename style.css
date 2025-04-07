@@ -1,11 +1,12 @@
 .container {
     background-color: rgb(2, 30, 54);
     width: 100%;
+  
    
     /* display: ; */
 }
 .port{
-    padding: 2px;
+    padding: 200px;
 }
 .nav a {
     background-color:#111c2d;
@@ -64,7 +65,7 @@
 
 .section {
     display: flex;
-    padding: 80px;
+    padding: 250px;
     align-items: center;
     justify-content: center;
 }
@@ -102,11 +103,16 @@
 #con {
     position: absolute;
     /*  */}
+  #about {
+      
+      padding: 120px;
+      margin: 12px;
+  }
 
 .about {
     display: flex;
     padding: 10px;
-    margin: 2px;
+    margin: 12px;
 }
 
 h2 {
@@ -118,7 +124,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin: 12px;
-    padding: 8px;
+    padding:35px;
 }
 
 .about img {
@@ -130,21 +136,21 @@ h2 {
 
 .about p {
     color: white;
-    padding: 33px;
+    padding: 67px;
     font-size: 18px;
 
 }
 
 #skills{
-    margin: 4px;
-    padding: 11px;
+    margin: 14px;
+    padding: 110px;
 }
 
 
 .skills {
     display: block;
     padding: 10px;
-    margin: 2px;
+    margin: 12px;
 }
 .skills img{
     display: block;
@@ -179,7 +185,8 @@ button:hover {
 }
 /* projects */
 #projects {
-    padding: 16px 0;
+    padding: 50px 0;
+    margin: 5px;
    
   }
   #projects h3 {
